@@ -30,6 +30,9 @@ public class CategoryRVAdapter extends RecyclerView.Adapter<CategoryRVAdapter.Vi
     @Override
     public CategoryRVAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.categories, parent, false);
+        // Alternate method.
+//        CategoryRVAdapter.ViewHolder vh = new CategoryRVAdapter.ViewHolder;
+//        return  vh;
         return new CategoryRVAdapter.ViewHolder(view);
     }
 
