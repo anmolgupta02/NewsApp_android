@@ -73,7 +73,7 @@ public class NewsRVAdapter extends RecyclerView.Adapter<NewsRVAdapter.ViewHolder
             super(itemView);
             titleTV = itemView.findViewById(R.id.idTVNewsHeading);
             subTitleTv = itemView.findViewById(R.id.idTVSubTitle);
-            newsIV = itemView.findViewById(R.id.idIVNews);
+            newsIV = itemView.findViewById(R.id.idIVNewsDetails);
         }
     }
 }

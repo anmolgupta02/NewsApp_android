@@ -14,7 +14,7 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:id="@+id/idIVNews"
+            android:id="@+id/idIVNewsDetails"
             android:scaleType="centerCrop"
             />
 
@@ -22,7 +22,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/idTVNewsHeading"
-            android:layout_below="@id/idIVNews"
+            android:layout_below="@id/idIVNewsDetails"
             android:textColor="@color/yellow"
             android:text="News Heading"
             android:textStyle="bold"
